@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images",
+    "\\css",
+    "\\js",
+    "\\plugins",
+    "\\plugins\\bootstrap",
+    "\\plugins\\bootstrap\\css",
     "\\plugins\\google-map"
   ],
-  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

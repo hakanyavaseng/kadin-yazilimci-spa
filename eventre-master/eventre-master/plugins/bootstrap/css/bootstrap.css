@@ -3233,11 +3233,13 @@ tbody.collapse.show {
 }
 
 .tab-content > .tab-pane {
-  display: none;
+    display: flex;
+    max-width: 100%;
 }
 
 .tab-content > .active {
-  display: block;
+    display: flex;
+    max-width: 100%;
 }
 
 .navbar {

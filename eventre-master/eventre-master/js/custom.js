@@ -35,12 +35,21 @@
         // -----------------------------
         //  Count Down JS
         // -----------------------------
+
+        $.syotimerLang.tr = {
+            second: ["saniye", "saniye"],
+            minute: ["dakika", "dakika"],
+            hour: ["saat", "saat"],
+            day: ["gun", "Gun"],
+        };
+
         $('.timer').syotimer({
             year: 2024,
             month: 0o3,
             day: 23,
             hour: 10,
             minute: 30,
+            lang : "tr",
         });
         // -----------------------------
         // To Top Init

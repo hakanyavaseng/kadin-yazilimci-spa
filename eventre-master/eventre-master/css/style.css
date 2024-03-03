@@ -4,6 +4,20 @@ html {
   font-size: 16px;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+
 body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -1242,6 +1256,7 @@ select.form-control:not([size]):not([multiple]) {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 14px;
+  
 }
 
 .schedule .schedule-tab ul li.nav-item {
@@ -1368,6 +1383,10 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-contents .schedule-item ul li .subject {
   width: 30%;
+}
+
+.schedule .schedule-contents .schedule-item ul li .subject2 {
+    width: 30%;
 }
 
 @media (max-width: 991px) {
