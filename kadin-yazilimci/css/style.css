@@ -2056,7 +2056,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .sponsors .block {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .sponsors .block .list-inline-item:not(:last-child) {
@@ -2064,9 +2064,10 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .sponsors .block .image-block {
-  padding: 45px 0;
+  padding: 20px 0;
   background: #fff;
-  width: 244px;
+  width: 250px;
+  height: 250px;
   cursor: pointer;
   transition: all .3s ease;
   border: 1px solid transparent;
@@ -2074,7 +2075,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .sponsors .block .image-block img {
-  height: 55px;
+  height: 150px;
 }
 
 .sponsors .block .image-block:hover {
@@ -2110,13 +2111,14 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .map .address-block h4, .map .address-block li {
-  color: #fff;
+  color: #000;
   margin-bottom: 20px;
+  font-weight:800;
 }
 
 .map .address-block h4 {
-  font-size: 1.5rem;
-  font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .map .address-block ul.address-list li {
