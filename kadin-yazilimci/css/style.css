@@ -495,10 +495,10 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 0.9375rem;
 }
 
-.btn-main-md:hover {
-  color: #fff;
-  background: #e65c00;
-}
+    .btn-main-md:hover {
+        color: #000;
+        background: #f493ba;
+    }
 
 .btn-main-md:focus {
   color: #fff;
